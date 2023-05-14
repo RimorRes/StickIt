@@ -4,6 +4,8 @@
 
 [![GitHub](https://img.shields.io/github/license/Oxyde2/Preflight?color=yellow)](LICENSE)
 
+[![Build Status](https://circleci.com/gh/RimorRes/StickIt.svg?style=shield)](https://app.circleci.com/pipelines/github/RimorRes/StickIt)
+
 [![Gitmoji](https://img.shields.io/badge/gitmoji-%20%F0%9F%98%9C%20%F0%9F%98%8D-FFDD67.svg?)](https://gitmoji.carloscuesta.me/)
 
 ### A sticky note mosaic art planner!
