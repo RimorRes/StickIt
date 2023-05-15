@@ -18,8 +18,6 @@ jobs:
           name: Run tests
           command: |
             pytest -v --cov=stickit --cov-report=term-missing
-            flake8 stickit
-            flake8 tests
       - coveralls/upload
 
 workflows:

@@ -1,4 +1,3 @@
-# flake8: noqa
 from stickit.palettize import Palette, convert_to_palette
 from stickit.preprocess import convert_to_rgb, reduce_colors
 

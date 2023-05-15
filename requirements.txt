@@ -4,5 +4,3 @@ scikit-image
 pillow
 pytest
 pytest-cov
-flake8
-
