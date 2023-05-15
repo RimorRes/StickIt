@@ -1,0 +1,5 @@
+numpy
+pillow
+pytest
+flake8
+
