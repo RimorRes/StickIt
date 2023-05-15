@@ -74,7 +74,7 @@ class Palette:
         return seq
 
 
-def convert_to_palette(img: Image.Image, palette: Palette):
+def convert_to_palette(img: Image.Image, palette: Palette, dither=False):
     """
     Converts an image to the specified color palette.
 
@@ -85,4 +85,6 @@ def convert_to_palette(img: Image.Image, palette: Palette):
     pal_image = Image.new('P', (1, 1))
     pal_image.putpalette(palette.to_sequence())
 
-    return img.convert("RGB").quantize(palette=pal_image, dither=0)
+    d = 1 if dither else 0
+
+    return img.convert("RGB").quantize(palette=pal_image, dither=d)
