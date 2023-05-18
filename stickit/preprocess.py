@@ -10,3 +10,4 @@ def convert_to_rgb(image):
 
 def reduce_colors(image, num_colors):
     return image.convert('P', palette=Image.ADAPTIVE, colors=num_colors+1)
+
